@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/JavaScript"
+          src="https://cdn.jsdelivr.net/npm/lodash@4.17.20/lodash.min.js"></script>
+  <script src="index.js"></script>
+</head>
+<body>
+
+<form id="user_profile_form">
+
+  <label for="fullText">
+    <textarea id="fullText" name="fullText" rows="10" cols="80">
+My name is Tom. Mike and Jim will come over soon.
+willow is a low confidence. Willow is a higher confidence.
+</textarea>
+
+  </label>
+  <br><input type="submit" value="submit" id="submit"/>
+</form>
+<br>
+
+<div class="topcorner">
+  <textarea id="list" rows="10" cols="20"></textarea>
+</div>
+
+<div>
+  Searching Types:
+  <div id="types"></div>
+</div>
+
+<br>
+
+<div id="overall">
+  Results:
+  <div id="requestText"></div>
+  <div id="results"></div>
+</div>
+
+</body>
+</html>
